@@ -42,14 +42,14 @@
 # let p = new Promise((resolve, reject) => {
  #   setTimeout(resolve, 1000, '111');
 # });
-#p.then(
+# p.then(
  #   res => {
   #      console.log(res);
     #    return new Promise((resolve, reject) => {
    #         setTimeout(resolve, 1000, '2222222');
     #    });
   #  }
-#).then(
+# ).then(
 #        res =>
  #       {console.log(res)
  #          return new Promise((resolve, reject) => {
