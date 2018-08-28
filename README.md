@@ -39,9 +39,9 @@ nodejs 同步执行控制实例
 # //
 
 
-#let p = new Promise((resolve, reject) => {
+# let p = new Promise((resolve, reject) => {
  #   setTimeout(resolve, 1000, '111');
-#});
+# });
 #p.then(
  #   res => {
   #      console.log(res);
